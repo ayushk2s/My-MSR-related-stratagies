@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dart analyze bin/backtest_msr_sfi_exit.dart)",
+      "Bash(dart run bin/backtest_msr_sfi_exit.dart)",
+      "Bash(ls \"C:/Users/GIGA/Desktop/Candle Data/\"*/)",
+      "Bash(python3 -c ':*)",
+      "Bash(python -c ':*)",
+      "Bash(dart run:*)",
+      "Bash(awk -F',' '{print $8, $9}')",
+      "Bash(dart compile:*)",
+      "Bash(./bin/trend_based/trend_based_v6.exe)",
+      "Bash(./bin/trend_based/trend_based_v7.exe)",
+      "Bash(./bin/trend_based/trend_based_v8.exe)",
+      "Bash(bin/trend_based/trend_based_fullbt.exe)",
+      "Bash(bin/trend_based/trend_based_v9.exe)"
+    ]
+  }
+}
