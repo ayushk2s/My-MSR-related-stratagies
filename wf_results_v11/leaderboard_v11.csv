@@ -1,0 +1,6 @@
+Symbol,Strategy,Trades,WinRate%,TotalReturn%,AvgWin%,AvgLoss%,ProfitFactor,Sharpe,MaxDD%,Expectancy%,Calmar,CompositeScore
+APTUSDT,Chandelier-MTF,5,40.00,-1.71,0.93,-1.19,0.52,-0.53,3.54,-0.34,-0.48,17.75
+BCHUSDT,Chandelier-MTF,4,25.00,-0.52,0.59,-0.37,0.53,-0.57,0.63,-0.13,-0.82,0.00
+DOGEUSDT,Chandelier-MTF,7,57.14,6.98,2.21,-0.62,4.76,1.58,0.86,1.00,8.16,69.61
+LTCUSDT,Chandelier-MTF,12,50.00,6.98,1.89,-0.72,2.61,1.14,3.32,0.58,2.10,47.15
+TRXUSDT,Chandelier-MTF,4,25.00,3.24,4.84,-0.53,3.04,0.70,1.59,0.81,2.04,0.00

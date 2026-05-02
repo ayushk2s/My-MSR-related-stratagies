@@ -7,8 +7,8 @@ import 'package:crypto/crypto.dart';
 
 Future<void> main() async {
   ///Trial Account Keys
-  const String apiKey = 'mx0vglw4jB0k5dfxAI';
-  const String secretKey = 'cf5bb32193c7412d8ec4d1b1b080fbea';
+  const String apiKey = 'YOUR_MEXC_API_KEY';
+  const String secretKey = 'YOUR_MEXC_SECRET_KEY';
   const baseUrl = 'https://api.mexc.com';
 
   final spotAccount = await MexcSpotFunctions.getSpotAccount();
@@ -74,8 +74,8 @@ class MexcFutureFunctions {
   static const String baseUrl = 'https://contract.mexc.com';
   //Tussie
 
-  static String apiKey = 'mx0vglw4jB0k5dfxAI';
-  static String secretKey = 'cf5bb32193c7412d8ec4d1b1b080fbea';
+  static String apiKey = 'YOUR_MEXC_API_KEY';
+  static String secretKey = 'YOUR_MEXC_SECRET_KEY';
 
   static int _getTimestamp() => DateTime.now().millisecondsSinceEpoch;
 
@@ -189,8 +189,8 @@ class MexcFutureFunctions {
 
 class MexcSpotFunctions {
   static const String baseUrl = 'https://api.mexc.com';
-  static String apiKey = 'mx0vglw4jB0k5dfxAI';
-  static String secretKey = 'cf5bb32193c7412d8ec4d1b1b080fbea';
+  static String apiKey = 'YOUR_MEXC_API_KEY';
+  static String secretKey = 'YOUR_MEXC_SECRET_KEY';
 
   /// Generate signature for MEXC SPOT
   static String _sign(String query) {

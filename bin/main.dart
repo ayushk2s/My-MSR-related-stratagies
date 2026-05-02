@@ -872,8 +872,8 @@ class SfiIndicator {
 // ============================================================================
 
 Future<void> main() async {
-  const apiKey    = '702bfa60c9818ac2b27b14d78170eade3fd72b1fce1bf49188274c6d362be7fe';
-  const secretKey = 'b35258daeaa33e4554cb6bce1fe2e5b7eae6408c5496291a84b12ca42b5390ea';
+  const apiKey    = 'YOUR_API_KEY_HERE';
+  const secretKey = 'YOUR_SECRET_KEY_HERE';
 
   final symbols = ['SOLUSDT', 'BNBUSDT', 'ETHUSDT'];
 

@@ -13,7 +13,16 @@
       "Bash(./bin/trend_based/trend_based_v7.exe)",
       "Bash(./bin/trend_based/trend_based_v8.exe)",
       "Bash(bin/trend_based/trend_based_fullbt.exe)",
-      "Bash(bin/trend_based/trend_based_v9.exe)"
+      "Bash(bin/trend_based/trend_based_v9.exe)",
+      "Bash(awk -F',' 'NR>1 {printf \"%s %s WR:%.0f%% Ret:%.2f%% Trades:%s\\\\n\", $1, $2, $4, $5, $3}' wf_results_v6/leaderboard_v6.csv)",
+      "Bash(sort -t: -k2 -nr)",
+      "Bash(awk -F',' 'NR>1 && $3>10 {ratio=$6/\\(-$7\\); printf \"  %-12s %-22s WR:%.0f%% W/L_ratio:%.2fx Ret:%.2f%%\\\\n\", $1,$2,$4,ratio,$5}' wf_results_v6/leaderboard_v6.csv)",
+      "Bash(sort -t: -k3 -nr)",
+      "Bash(bin/trend_based/trend_based_v10.exe)",
+      "Bash(bin/trend_based/trend_based_v11.exe)",
+      "Bash(dart analyze *)",
+      "Bash(bin/new_algo_with_sr/B07.exe)",
+      "Bash(bin/new_algo_with_sr/B08.exe)"
     ]
   }
 }

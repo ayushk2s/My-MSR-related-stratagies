@@ -54,8 +54,8 @@
 //   loop();
 //
 //   final client = MexcWsClient(
-//     apiKey: "mx0vglW1UuQdZK0RL1",
-//     secretKey: "98405139d2d44c9abc51e9fc769605f5",
+//     apiKey: "YOUR_MEXC_API_KEY",
+//     secretKey: "YOUR_MEXC_SECRET_KEY",
 //   );
 //
 //

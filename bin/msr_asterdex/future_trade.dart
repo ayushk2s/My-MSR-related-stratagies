@@ -6,22 +6,8 @@ import 'package:http/http.dart' as http;
 ///SHORT (SELL - open; BUY - close)
 class AsterFunction {
   // === API Keys ===
-  // static const String apiKey =
-  //     'bf0a0c469df07abb93964eba308ac55034f55c779520b50493ec6c5dfd399ac0';
-  // static const String secretKey =
-  //     '3ec05bbafc256a989b400d7523cbea0347b623ad1ecb3dd307259f156b2a24ad';
-  //
-  static const String apiKey =
-      '702bfa60c9818ac2b27b14d78170eade3fd72b1fce1bf49188274c6d362be7fe';
-  static const String secretKey =
-      'b35258daeaa33e4554cb6bce1fe2e5b7eae6408c5496291a84b12ca42b5390ea';
-  /*
-> QPhysiq:
-60de7921719e28c2f7532b2b4dfc4828f62d83ed9c7c8b622e2970cbcf52f9dc
-
-> QPhysiq:
-86cfda671891b0de56cb71153c07d949dccc4a35fcc6a70bddd8ede20b793dbc
- */
+  static const String apiKey = 'YOUR_API_KEY_HERE';
+  static const String secretKey = 'YOUR_SECRET_KEY_HERE';
   ///Place Order
   static Future<void> placeOrder({
     required String symbol,
